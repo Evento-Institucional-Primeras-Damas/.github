@@ -18,7 +18,7 @@ El proyecto está dividido en componentes independientes distribuidos en las car
 
 ---
 
-## 3. Matriz de Requisitos Oficiales (Single Source of Truth)
+## 4. Matriz de Requisitos Oficiales (Single Source of Truth)
 
 ### Requisitos Funcionales (RF)
 - **RF-01: Landing:** Mostrar página principal institucional con acceso a los módulos.
@@ -58,7 +58,7 @@ El proyecto está dividido en componentes independientes distribuidos en las car
 
 ---
 
-## 4. Instrucciones de Operación para el Agente (Claude)
+## 5. Instrucciones de Operación para el Agente (Claude)
 - **Foco de Trabajo:** Cuando se trabaje dentro de una subcarpeta específica, lee el archivo `agents.md` local de ese repositorio para aplicar las reglas de sintaxis y dependencias correspondientes (NestJS, Next.js, etc.).
 - **Validación de Datos:** Aplica tipado estricto extremo a extremo aprovechando que el stack completo se apoya en TypeScript.
 - **Optimización de Recursos:** Toda propuesta de código que involucre subida de archivos debe incluir compresión previa en el cliente para proteger la red local del evento.
