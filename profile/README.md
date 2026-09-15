@@ -36,6 +36,8 @@ El proyecto está dividido en componentes independientes distribuidos en las car
 - **RF-13: Dashboard Administrativo:** El sistema debe permitir al Administrador realizar el mantenimiento (creación, lectura, actualización y eliminación) de la agenda del evento. Además, debe generar la memoria del evento.
 - **RF-14: Gestión de Usuarios:** El sistema debe permitir al Administrador realizar el mantenimiento integral (creación, lectura, actualización y desactivación/eliminación) de los perfiles de usuario de la aplicación.
 - **RF-15: PWA:** Aplicación instalable desde navegadores compatibles. Funcionar con caché básico para navegación y lectura reciente (Offline-ready).
+- **RF-16: Notificaciones Web Push con VAPID:** El sistema permitirá el registro de usuarios y la persistencia de sus suscripciones utilizando la API de Web Push. Para garantizar la seguridad en el envío de las notificaciones, el módulo requerirá la configuración y el uso de claves públicas y privadas bajo el estándar VAPID (Voluntary Application Server Identification). 
+- **RF-17: Cola de Subidas offline (IndexedDB + Background Sync):** El sistema implementará un Service Worker personalizado para gestionar el comportamiento de la aplicación según el estado de la red. Este componente almacenará de forma local los datos en IndexedDB durante períodos de desconexión y utilizará la API Background Sync para sincronizar y procesar la cola de subidas automáticamente una vez que se restablezca la conectividad.  
 
 ### Requisitos No Funcionales (RNF)
 - **RNF-01: Usability (Usabilidad):** Interfaz mobile-first, sumamente clara para usuarios no técnicos (Primeras Damas). Cumplir accesibilidad mínima (contraste, tamaño de texto legible, labels correctos).
